@@ -1,0 +1,32 @@
+<div class="container">
+
+    <table class="table table-bordered">
+    
+        <th>
+            <tr>
+                <td colspan="4"><input type="text" placeholder="Enter number" name="inputs1" class="form-control" [(ngModel)]="inputs1"> </td>
+                <td colspan="4"><input type="text" placeholder="Enter number" name="inputs1" class="form-control" [(ngModel)]="inputs2"></td> 
+            </tr>
+            <tbody>
+                <tr>
+                    <td colspan="2"> <button class="btn btn-primary btn-lg btn-block bt-myCss " (click)="addFuncation()"> + </button> </td>
+                    <td colspan="2"> <button class="btn btn-primary btn-lg btn-block bt-myCss" (click)="mulFuncation()"> * </button></td>
+                    <td colspan="2"> <button class="btn btn-primary btn-lg btn-block bt-myCss" (click)="subFuncation()"> - </button></td>
+                    <td colspan="2"> <button class="btn btn-primary btn-lg btn-block bt-myCss" (click)="divFuncation()"> / </button> </td>
+                </tr>
+                <tr class="mt_tb">
+                    <td colspan="2"><label for="">Reault :- </label></td>
+                    <td colspan="6"><h1 class="form-control">{{result}}</h1></td>
+                </tr>
+            </tbody>
+
+        </th>
+        
+
+         
+
+        
+
+
+    </table>
+</div>
